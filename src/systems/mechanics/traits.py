@@ -1,5 +1,6 @@
 from src.components.traits import CATEGORIES_PER_AGE, TRAIT_EVOLUTIONS, TRAIT_SYNERGIES
 from src.utils.constants import AGES, TRAITS
+import random
 
 class TraitSystem:
     def __init__(self):

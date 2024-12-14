@@ -1,11 +1,11 @@
-# Odyssey Eden
+# Fates Flux
 
-Embark on an extraordinary journey into the heart of Odyssey Eden, a captivating 2D pixel art top-down role-playing life simulation and tribe management game that transcends the boundaries of imagination. Prepare to be enraptured by a world where untold wonders and untamed wilderness collide, where the fate of your tribe hangs in the balance, and where every decision you make reverberates through the annals of history.
+Embark on an extraordinary journey into the heart of Fates Flux, a captivating 2D pixel art top-down role-playing life simulation and tribe management game that transcends the boundaries of imagination. Prepare to be enraptured by a world where untold wonders and untamed wilderness collide, where the fate of your tribe hangs in the balance, and where every decision you make reverberates through the annals of history.
 
 ## Key Features:
 
 #### Discover the Uncharted: 
-Venture forth into a realm of boundless possibility, where each step unveils a new vista of breathtaking beauty and perilous terrain. From lush jungles teeming with exotic life to windswept plains stretching to the horizon, the world of Odyssey Eden beckons with the promise of adventure.
+Venture forth into a realm of boundless possibility, where each step unveils a new vista of breathtaking beauty and perilous terrain. From lush jungles teeming with exotic life to windswept plains stretching to the horizon, the world of Fates Flux beckons with the promise of adventure.
 #### Lead with Vision: 
 As the guiding light of your tribe, you hold the power to shape their destiny. Command their actions with wisdom and foresight, for the path to greatness is fraught with challenges and opportunities alike. Will you lead with an iron fist or a gentle touch? The choice is yours.
 #### Confront the Unknown: 
@@ -21,7 +21,7 @@ Peer into the labyrinthine depths of genetics as you unravel the mysteries of he
 #### Rise to the Challenge: 
 Brace yourself for a trial by fire as you confront challenges that will test your courage, cunning, and resilience. Only the boldest will triumph in the face of adversity, for the path to glory is paved with hardship and sacrifice.
 #### Unlock the Unknown: 
-Plunge headlong into the depths of Odyssey Eden and unlock a treasure trove of hidden secrets, tantalizing rewards, and mind-bending surprises. The journey may be perilous, but the rewards are beyond compare.
+Plunge headlong into the depths of Fates Flux and unlock a treasure trove of hidden secrets, tantalizing rewards, and mind-bending surprises. The journey may be perilous, but the rewards are beyond compare.
 
 ## Development Roadmap:
 
@@ -34,14 +34,14 @@ Embrace the power of generational gameplay as you weave a tapestry of triumph an
 #### Phase 4 - Unlock the Power Within: 
 Harness the power of genetics as you unlock the secrets of life itself, shaping the destiny of your tribe with each passing generation.
 #### Phase 5 - Dare to Dream: 
-Venture into the unknown and unlock the true potential of Odyssey Eden with each playthrough, discovering new horizons and forging your own path to glory.
+Venture into the unknown and unlock the true potential of Fates Flux with each playthrough, discovering new horizons and forging your own path to glory.
 
 ## Contributing:
 
-Odyssey Eden beckons adventurers of all stripes to join us on this exhilarating journey. Explore our contributing guidelines and become part of gaming history.
+Fates Flux beckons adventurers of all stripes to join us on this exhilarating journey. Explore our contributing guidelines and become part of gaming history.
 
 ## Please Note:
-#### Odyssey Eden may contain content suitable for mature audiences aged 18 and above.
+#### Fates Flux may contain content suitable for mature audiences aged 18 and above.
 
 ## License:
 This project is licensed under the GNU General Public License Version 2, ensuring that it remains freely accessible and modifiable for all.

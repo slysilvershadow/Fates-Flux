@@ -1,7 +1,8 @@
 from src.utils.constants import AGES, TRAITS
+import random
 
-
-CATEGORIES_PER_AGE = {
+# Maps age groups to corresponding trait categories
+CATEGORIES_PER_AGE: Dict[str, List[Dict]] = {
     AGES['infant']: TRAITS['temperament'],
     AGES['sprout']: [TRAITS['temperament'], TRAITS['socialization']],
     AGES['youth']: [TRAITS['emotional'], TRAITS['interaction'], TRAITS['cognition']],
@@ -12,8 +13,7 @@ CATEGORIES_PER_AGE = {
                    TRAITS['morals'], TRAITS['perspective'], TRAITS['legacy']]
 }
 
-# Defines the evolution paths for traits based on age groups
-TRAIT_EVOLUTIONS: List[Tuple[str, str, str]] = [
+TRAIT_EVOLUTIONS = [
     # Temperament to Emotional
     (TRAITS['temperament']['positive'][0],
      TRAITS['emotional']['positive'][0], AGES['youth']),  #

@@ -1,9 +1,38 @@
 from ..utils import constants as con
 import random
 
-
 class DNA:
+    """
+    Represents the genetic attributes of a character in the game.
+
+    Attributes:
+        gender (dict): The gender attributes of the character.
+        skin (dict): The skin attributes of the character.
+        height (dict): The height attributes of the character.
+        body (dict): The body attributes of the character.
+        hair (dict): The hair attributes of the character.
+        eyes (dict): The eye attributes of the character.
+        nose (dict): The nose attributes of the character.
+        mouth (dict): The mouth attributes of the character.
+        ears (dict): The ear attributes of the character.
+    """
     def __init__(self, gender=None, skin=None, height=None, body=None, hair=None, eyes=None, nose=None, mouth=None, ears=None):
+        """
+        Initialize a DNA object with random or provided attributes.
+        
+        If no attributes are provided, random attributes will be selected from the constants.
+
+        Parameters:
+            gender (dict): The gender attributes.
+            skin (dict): The skin attributes.
+            height (dict): The height attributes.
+            body (dict): The body attributes.
+            hair (dict): The hair attributes.
+            eyes (dict): The eye attributes.
+            nose (dict): The nose attributes.
+            mouth (dict): The mouth attributes.
+            ears (dict): The ear attributes.
+        """
         self.gender = gender or {
             'sex1': con.SEX[0],
             'sex2': random.choice(con.SEX),
@@ -58,11 +87,23 @@ class DNA:
         }
 
     def __repr__(self):
+        """
+        Return a string representation of the DNA object.
+        """
         return (f"DNA(gender={self.gender}, skin={self.skin}, height={self.height}, "
                 f"body={self.body}, hair={self.hair}, eyes={self.eyes}, nose={self.nose}, "
                 f"mouth={self.mouth}, ears={self.ears})")
 
     def __add__(self, other):
+        """
+        Combine two DNA objects to create a new DNA object with mixed attributes.
+
+        Parameters:
+            other (DNA): Another DNA object to combine with.
+
+        Returns:
+            DNA: A new DNA object that combines attributes from both parents.
+        """
         if not isinstance(other, DNA):
             raise TypeError("Cannot combine DNA with non-DNA")
 

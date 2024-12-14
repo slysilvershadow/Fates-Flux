@@ -1,25 +1,52 @@
-from typing import List
-from src.ecs import Component, Entity, System
+# actions.py
 
 class Interaction:
-    def __init__(self, entity: Entity):
-        self.entity = entity  # Reference to the entity this interaction belongs to
+    """
+    Represents an interaction between entities in the game.
 
-    def check_viable_actions(self, other_entity: Entity) -> List[str]:
-        viable_actions = []
+    Attributes:
+        entity_a (Entity): The first entity involved in the interaction.
+        entity_b (Entity): The second entity involved in the interaction.
+    """
+    def __init__(self, entity_a, entity_b):
+        """
+        Initialize a new interaction between two entities.
 
-        # Add more checks for other actions as needed
-        if self.entity.get_component(Interactor) and other_entity.get_component(Interactable):
-            viable_actions.append("interact")
+        Parameters:
+            entity_a (Entity): The first entity involved in the interaction.
+            entity_b (Entity): The second entity involved in the interaction.
+        """
+        self.entity_a = entity_a
+        self.entity_b = entity_b
 
+    def check_viable_actions(self):
+        """
+        Check if the interaction between the two entities is viable.
 
-        return viable_actions
-    
-    def trigger_action(self, action: str, other_entity: Entity) -> None:
-        if action == "interact":
-            self.perform_interaction(other_entity)
+        Returns:
+            bool: True if the interaction is viable, otherwise False.
+        """
+        # Placeholder for actual viability check logic
+        return True
+
+    def trigger_action(self):
+        """
+        Trigger the action associated with the interaction.
+
+        Returns:
+            str: A message indicating the result of the action.
+        """
+        # Placeholder for action triggering logic
+        return f"Interaction between {self.entity_a} and {self.entity_b} triggered."
+
+    def perform_interaction(self):
+        """
+        Perform the interaction between the two entities.
+
+        Returns:
+            str: A message indicating the outcome of the interaction.
+        """
+        if self.check_viable_actions():
+            return self.trigger_action()
         else:
-            print(f"Action '{action}' is not recognized.")
-
-    def perform_interaction(self, other_entity: Entity):
-        print(f"{self.entity.id} interacts with {other_entity.id}.")
+            return "Interaction is not viable."

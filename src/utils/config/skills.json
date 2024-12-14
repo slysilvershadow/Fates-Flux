@@ -1,0 +1,14 @@
+{
+    "skills": {
+        "survival": ["foraging", "hunting", "fishing", "cooking", "fire-making", "shelter-building", "farming", "tool crafting", "animal husbandry"],
+        "combat": ["melee", "archery", "defense", "tactics", "martial arts"],
+        "crafting": ["woodworking", "stoneworking", "metalworking", "textile crafting", "pottery", "building", "leatherworking"],
+        "artisan": ["painting", "writing", "sculpting", "music"],
+        "communication": ["bartering", "leadership", "teaching", "diplomacy", "persuasion"],
+        "healing": ["herbalisim", "first aid", "surgery", "midwifery", "spiritual healing"],
+        "mental": ["meditation", "philosophy", "spiritual leadership"],
+        "exploration": ["navigation", "cartography", "swimming", "climbing"],
+        "domestic": ["cleaning", "child rearing", "clothing maintenance"],
+        "magic": ["elemental", "divination", "alchemy", "enchanting"]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "biomes": {
+        "Tropical Rainforest": ["Lush Grass", "Rich Soil", "Wet Mud"],
+        "Tropical Savanna": ["Dry Grass", "Dry Soil", "Clay Soil"],
+        "Mediterranean Scrub": ["Dry Grass", "Clay Soil", "Granite"],
+        "Temperate Grassland": ["Dry Grass", "Rich Soil", "Sedimentary Rock"],
+        "Temperate Deciduous Forest": ["Lush Grass", "Rich Soil", "Clay Soil"],
+        "Temperate Rainforest": ["Lush Grass", "Rich Soil", "Wet Mud"],
+        "Boreal Forest": ["Dry Grass", "Clay Soil", "Granite"],
+        "Tundra": ["Snow", "Ice", "Permafrost"],
+        "Montane Forest": ["Lush Grass", "Clay Soil", "Sedimentary Rock"],
+        "Polar Ice Cap": ["Ice", "Permafrost"],
+        "River": ["Shallow Fresh Water", "Deep Fresh Water"],
+        "Lake": ["Shallow Fresh Water", "Deep Fresh Water"],
+        "Wetland": ["Wet Mud", "Rich Soil"],
+        "Ocean": ["Shallow Salt Water", "Deep Salt Water"],
+        "Coral Reef": ["Shallow Salt Water"],
+        "Estuary": ["Shallow Fresh Water", "Shallow Salt Water"]
+    }
+}

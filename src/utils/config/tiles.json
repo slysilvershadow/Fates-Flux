@@ -1,0 +1,22 @@
+{
+    "tiles": {
+        'Lush Grass',
+        'Dry Grass',
+        'Rich Soil',
+        'Dry Soil',
+        'Clay Soil',
+        'Granite',
+        'Limestone',
+        'Sedimentary Rock',
+        'Sand',
+        'Dry Mud',
+        'Wet Mud',
+        'Shallow Fresh Water',
+        'Deep Fresh Water',
+        'Shallow Salt Water',
+        'Deep Salt Water',
+        'Snow',
+        'Ice',
+        'Permafrost'
+    }
+}
